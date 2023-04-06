@@ -121,24 +121,48 @@
 
 //Type conversion
 
-let randomYear = '1991';
+// let randomYear = '1991';
 
-console.log(randomYear + 1);
-console.log(randomYear - 1);
-console.log(Number(randomYear), randomYear);
+// console.log(randomYear + 1);
+// console.log(randomYear - 1);
+// console.log(Number(randomYear), randomYear);
 
-console.log(String(23), 23);
-console.log(typeof(Number('Nicks')));
+// console.log(String(23), 23);
+// console.log(typeof(Number('Nicks')));
 
 //type coerion
 
-console.log('I am ' + 19 + ' year old.');
-console.log(12 + '12');
-console.log('23'- '10' + 3);
-console.log('13' - 3);
-console.log('12' * 2);
-console.log('5' / 2);
+// console.log('I am ' + 19 + ' year old.');
+// console.log(12 + '12');
+// console.log('23'- '10' + 3);
+// console.log('13' - 3);
+// console.log('12' * 2);
+// console.log('5' / 2);
 
-let n = '1' + 1; // '11'
-n = n - 1;  //10
-console.log(n); // '-' operator changed the string to number
+// let n = '1' + 1; // '11'
+// n = n - 1;  //10
+// console.log(n); // '-' operator changed the string to number
+
+// Falsy values - 5 are: 0, null, NaN, Undefined, ''
+
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("Nicks"));
+// console.log(Boolean({}));
+// console.log(Boolean(''));
+
+// const money = 0;
+
+// if (money){
+//     console.log("Don't spend it all..!");
+// } else{
+//     console.log("Get some job..!");
+// }
+
+// let height;
+
+// if(height){
+//     console.log("Height is defined..!");
+// } else {
+//     console.log("Height is UNDEFINED..!");
+// }
