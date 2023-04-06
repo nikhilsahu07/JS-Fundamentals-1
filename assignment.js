@@ -8,3 +8,10 @@ console.log(country);
 console.log(continent);
 console.log(population);
 
+//Data types
+
+let isIsland = false;
+let language;
+
+console.log(typeof isIsland);
+console.log(language);
