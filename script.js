@@ -96,3 +96,25 @@
 
 // console.log(`${firstName} ${lastName} is a ${work}.
 // He is also learing ${programmingLang}.`); //back-tick is a multiline string supporter
+
+//Taking Decisions: if/else statements
+
+// let ageRiya = 20;
+
+// if (ageRiya >= 18){
+//     console.log(`As she is ${ageRiya} year old, 
+// she is eligible for driving license.`);
+
+// } else{
+//     console.log(`As she is ${ageRiya} year old,
+// she is not eliglible and have to wait for ${18-ageRiya} years more.`);
+// }
+
+// const birthYear = 2003;
+
+// if (birthYear<=2000){
+//     century = "20th";
+// } else {
+//     century = "21st";
+// }
+// console.log(`She born in ${century} century.`);
