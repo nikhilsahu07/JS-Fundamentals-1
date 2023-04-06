@@ -36,3 +36,9 @@ console.log(population < avgPopulation);
 
 let description = country + " is in " + continent + ", and its "+ (population / 2) + " people speak " + language;
 console.log(description);
+
+// Strings and Template Literals
+
+description = `${country} is in ${continent}, and its ${population / 2}
+people speak ${language}.`
+console.log(description);
