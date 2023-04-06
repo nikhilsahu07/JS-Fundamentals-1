@@ -166,3 +166,23 @@
 // } else {
 //     console.log("Height is UNDEFINED..!");
 // }
+
+//Equality operators == vs ===
+
+// const yourAge = '18';
+// if (yourAge == 18) console.log("You're an adult now :D (loose)");
+
+// if (yourAge === 18) console.log("You're an adult now :D (strict)");
+
+// let favNumber = Number(prompt("What's your favourite number:"));
+// if (favNumber === 23){
+//     console.log("Nice choice you've..😉");
+// } else if (favNumber === 9){
+//     console.log("That's also a good choice..👌");
+// } else if (favNumber === 80085){
+//     console.log("You are legend in choice..👀");
+// } else{
+//     console.log("Why not 23 your favourite??☹️");
+// }
+// if (favNumber !== 23) console.log("Not a 23..!");
+
