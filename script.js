@@ -32,3 +32,9 @@ console.log(nightParty);
 console.log(typeof nightParty);
 
 console.log(typeof null); //legacy bug of js
+
+// just like let there are 'const' and 'var' keywords for declaring variables
+const birthYear = 2004;
+// birthYear = 2003; //can't assigned cause its a const
+// just for now, let is block declaring and var is function declaring type 
+
