@@ -67,3 +67,20 @@
 
 // console.log(2**3);
 
+//Operator precendence
+
+const birthYearNicks = 2004;
+birthYearRiya = 2003;
+const now = 2023;
+let ageNicks, ageRiya;
+ageNicks = now - birthYearNicks;
+ageRiya = now - birthYearRiya;
+
+let averageAge;
+averageAge = (ageNicks + ageRiya)/2; //grouping has highest precedence
+console.log(averageAge);
+
+let x,y;
+x=y=10; // equal operator has precendence left to right
+console.log(x+y);
+
