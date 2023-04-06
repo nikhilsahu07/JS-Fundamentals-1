@@ -69,18 +69,30 @@
 
 //Operator precendence
 
-const birthYearNicks = 2004;
-birthYearRiya = 2003;
-const now = 2023;
-let ageNicks, ageRiya;
-ageNicks = now - birthYearNicks;
-ageRiya = now - birthYearRiya;
+// const birthYearNicks = 2004;
+// birthYearRiya = 2003;
+// const now = 2023;
+// let ageNicks, ageRiya;
+// ageNicks = now - birthYearNicks;
+// ageRiya = now - birthYearRiya;
 
-let averageAge;
-averageAge = (ageNicks + ageRiya)/2; //grouping has highest precedence
-console.log(averageAge);
+// let averageAge;
+// averageAge = (ageNicks + ageRiya)/2; //grouping has highest precedence
+// console.log(averageAge);
 
-let x,y;
-x=y=10; // equal operator has precendence left to right
-console.log(x+y);
+// let x,y;
+// x=y=10; // equal operator has precendence left to right
+// console.log(x+y);
 
+//String template and literals
+
+// const firstName = "Nikhil";
+// const lastName = "Sahu";
+// let work = "Student";
+// let programmingLang = "Javascript";
+
+// console.log(firstName + lastName + " is a " + work + ".\n"
+// + "He is also learning " + programmingLang + ".");
+
+// console.log(`${firstName} ${lastName} is a ${work}.
+// He is also learing ${programmingLang}.`); //back-tick is a multiline string supporter
