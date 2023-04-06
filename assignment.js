@@ -50,3 +50,10 @@ if(population > avgPopulation){
 } else {
     console.log(`${country}'s population is 22 million below average.`);
 }
+
+//Type Conversion and Coercion
+
+console.log('9'-'5');
+console.log('19'-'13'+'17');
+console.log('123' < 57);
+console.log(5+6+'4'+9 -4-2);
