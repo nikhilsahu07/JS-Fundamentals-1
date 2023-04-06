@@ -15,3 +15,11 @@ let language;
 
 console.log(typeof isIsland);
 console.log(language);
+
+//let, const and var
+
+language = "Hindi";
+//const variable must have initializer i.e., must have a value
+console.log(language);
+
+
