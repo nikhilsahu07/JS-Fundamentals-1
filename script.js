@@ -3,11 +3,11 @@
 
 // values and variables
 
-let firstName = "Nikhil"; //strings
-let hisAge = 19; //number integers or decimals
-let eitherWorks = false; //boolean type
-let PI = 3.1415; //real constants so all caps
-let eligibleForVote; //undefined data types
+// let firstName = "Nikhil"; //strings
+// let hisAge = 19; //number integers or decimals
+// let eitherWorks = false; //boolean type
+// let PI = 3.1415; //real constants so all caps
+// let eligibleForVote; //undefined data types
 // console.log(hisAge);
 // console.log(firstName);
 // there are also bigint and symbol and null but not get that much in handy
@@ -16,25 +16,54 @@ let eligibleForVote; //undefined data types
 
 // typeof Operator
 
-let isJavascriptFun = true;
+// let isJavascriptFun = true;
 // console.log(typeof firstName);
 // console.log(typeof hisAge);
 // console.log(typeof eitherWorks);
 // console.log(typeof PI);
 // console.log(typeof eligibleForVote);
-console.log(typeof isJavascriptFun);
+// console.log(typeof isJavascriptFun);
 
-isJavascriptFun = "Yes!"; 
-console.log(typeof isJavascriptFun);
+// isJavascriptFun = "Yes!"; 
+// console.log(typeof isJavascriptFun);
 
-let nightParty;
-console.log(nightParty);
-console.log(typeof nightParty);
+// let nightParty;
+// console.log(nightParty);
+// console.log(typeof nightParty);
 
-console.log(typeof null); //legacy bug of js
+// console.log(typeof null); //legacy bug of js
 
 // just like let there are 'const' and 'var' keywords for declaring variables
-const birthYear = 2004;
+// const birthYear = 2004;
 // birthYear = 2003; //can't assigned cause its a const
 // just for now, let is block declaring and var is function declaring type 
+
+// Operators
+
+//arithmetic operators- comparison- string
+// const birthYearNicks = 2004;
+// const birthYearRiya = 2003;
+// const now = 2023;
+// console.log(now - birthYearNicks);
+// console.log(now - birthYearRiya);
+
+// let isEligibleForVote = 18;
+// console.log(birthYearNicks >= isEligibleForVote);
+// console.log(birthYearRiya >= isEligibleForVote);
+
+// isEligibleForVote++;
+// isEligibleForVote--;
+// isEligibleForVote--;
+// console.log(isEligibleForVote);
+
+// let firstName = "Nikhil";
+// let lastName = "Sahu";
+// console.log(firstName + " " + lastName);
+
+// console.log(now - birthYearNicks < now - birthYearRiya);
+
+// let hisName = firstName += lastName;
+// console.log(hisName);
+
+// console.log(2**3);
 
