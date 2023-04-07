@@ -18,7 +18,7 @@ console.log(language);
 
 //let, const and var
 
-language = "Hindi";
+language = 'Hindi';
 //const variable must have initializer i.e., must have a value
 console.log(language);
 
@@ -69,3 +69,12 @@ if (numNeighbours === 1){ //loose equality operator not recommded
 } else{
     console.log("No borders");
 }
+
+//Logical operator
+
+if (language === 'English' && population < 50 && !isIsland){
+    console.log(`You should live in ${country}.`);
+} else {
+    console.log(`${country} does not meet your criteria.`);
+}
+
