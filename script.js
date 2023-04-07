@@ -186,3 +186,26 @@
 // }
 // if (favNumber !== 23) console.log("Not a 23..!");
 
+//Logical Operators
+
+// const hasDriverLicense = true; //A
+// const hasGoodVision = true; //B
+
+// console.log(hasDriverLicense && hasGoodVision);
+// console.log(hasDriverLicense || hasGoodVision);
+// console.log(!hasDriverLicense);
+
+// if (hasDriverLicense && hasGoodVision){
+//     console.log("Nick is able to drive.");
+// } else{
+//     console.log("Someone else should drive.!");
+// }
+// const isTired = false; //C
+
+// console.log(hasDriverLicense && hasGoodVision && isTired);
+// if (hasDriverLicense && hasGoodVision && !isTired){
+//     console.log("Nick is able to drive.");
+// } else{
+//     console.log("Someone else should drive.!");
+// }
+
