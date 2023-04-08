@@ -209,3 +209,61 @@
 //     console.log("Someone else should drive.!");
 // }
 
+//Switch Statements
+
+// test-days
+// const day = 'monday';
+// const day = 'tuesday';
+// const day = 'wedensday';
+// const day = 'thursday';
+// const day = 'friday';
+// const day = 'saturday';
+// const day = 'sunday';
+// const day = 'alienday';
+
+// switch (day) {
+//     case 'monday':
+//         console.log("Learn from programming theories..!");
+//         console.log("Do revision of previous learned programs..!");
+//         break;
+//     case 'tuesday':
+//         console.log("Do your coding courses..!");
+//         break;
+//     case 'wedensday':
+//     case 'thursday':
+//         console.log("Practice courses and do more projects..!");
+//         break;
+//     case 'friday':
+//         console.log("Search for more carrier options and apply..!");
+//         break;
+//     case 'saturday':
+//         console.log("Do more open source contribution and improve yoour profile..!");
+//         break;
+//     case 'sunday':
+//         console.log("Attend coding meetup, meet with people of same interest..!");
+//         break;
+//     default:
+//         console.log("Have rest... I don't think you  even exits..Alien!!");
+//         break;
+// }
+
+//alternative if-else statements
+
+// const day = 'thursday';
+
+// if(day === 'monday'){
+//     console.log("Learn from programming theories..!");
+//     console.log("Do revision of previous learned programs..!");
+// } else if (day === 'tuesday'){
+//     console.log("Do your coding courses..!");
+// } else if ( day === 'wedensday' || day === 'thursday'){
+//     console.log("Practice courses and do more projects..!");
+// } else if (day === 'friday'){
+//     console.log("Search for more carrier options and apply..!");
+// } else if (day === 'saturday'){
+//     console.log("Do more open source contribution and improve yoour profile..!");
+// } else if(day === 'sunday'){
+//     console.log("Attend coding meetup, meet with people of same interest..!");
+// } else{
+//     console.log("Have rest... I don't think you  even exits..Alien!!");
+// }
