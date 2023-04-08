@@ -267,3 +267,31 @@
 // } else{
 //     console.log("Have rest... I don't think you  even exits..Alien!!");
 // }
+
+// Statements and expressions
+
+//expressions
+// 3+4
+// 1221
+// true && false || true
+//statements - statements contains expressions
+// let someVariable = 1993;
+// let str;
+// if (3>2){
+//     var str1 = '3 is greater than 2'; //used var instead of let or const because they're not func declaring type
+// } else {
+//     var str1 = '3 is not greater than 2';
+// }
+
+// console.log(str1);
+
+//the code below doesn't work because template literals only take expressions not statements
+// const myName = 'Nicks';
+// console.log(`I'm ${myName} and i found that ${if (3>2){
+//     var str1 = '3 is greater than 2'; //used var instead of let or const because they're not func declaring type
+// } else {
+//     var str1 = '3 is not greater than 2';
+// }
+// console.log(str1);
+// }`);
+
