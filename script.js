@@ -295,3 +295,16 @@
 // console.log(str1);
 // }`);
 
+//Ternary Operators
+
+// const age = 12;
+// age >= 18 ? drink = "Let's drink wine🍷..!" : drink = "Let's drink milk🥛..!";
+
+// console.log(drink);
+
+//another way of doing it
+// const drink2 = age >= 18 ? 'drink wine🍷..!' : 'drink milk🥛..!';
+// console.log(`Let's ${drink2}`);
+
+//one-another way of doing it
+// console.log(`Let's ${age >= 18 ? 'drink wine🍷..!' : 'drink milk🥛..!'}`);
